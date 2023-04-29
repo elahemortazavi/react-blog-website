@@ -30,10 +30,27 @@
   font-weight: 600;
 }
 
+/* Define the animation */
+@keyframes myAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply the animation to the image */
+
 .sidebarItem > img {
   margin-top: 15px;
   width: 250px;
   height: 250px;
+  animation: myAnimation 15s ease-in-out infinite;
+  border-radius: 5px;
 }
 
 .sidebarItem > p {

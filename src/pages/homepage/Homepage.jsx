@@ -1,6 +1,6 @@
 import { useLocation } from "react-router";
 import Header from "../../components/header/Header";
-import Posts from "../../components/post/Post";
+import Posts from "../../components/posts/Posts";
 import Sidebar from "../../components/sidebar/Sidebar";
 import "./homepage.css";
 

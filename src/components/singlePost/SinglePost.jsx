@@ -7,13 +7,15 @@ export default function SinglePost() {
       <div className="singlePostWrapper">
         <img
           className="singlePostImg"
-          src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+          src="https://images.unsplash.com/photo-1574169208538-4f45163ade8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
           alt=""
         />
         <h1 className="singlePostTitle">
           Lorem ipsum dolor
           <div className="singlePostEdit">
-            <i className="singlePostIcon far fa-edit"></i>
+            
+              <i className="singlePostIcon far fa-edit"></i>
+            
             <i className="singlePostIcon far fa-trash-alt"></i>
           </div>
         </h1>
@@ -21,8 +23,8 @@ export default function SinglePost() {
           <span>
             Author:
             <b className="singlePostAuthor">
-              <Link className="link" to="/posts?username=Safak">
-                Safak
+              <Link className="link" to="/posts?username=Elahe">
+                Elahe
               </Link>
             </b>
           </span>
